@@ -7,3 +7,11 @@ Generalizability in deep neural networks plays a pivotal role in medical image s
 ## Overall Architecture of MADGNet
 ![MFMSNet](https://github.com/BlindReview922/MADGNet/assets/142275582/8c1d54c5-b03d-4c71-b7f1-81e8c91e0d36)
 ![CascadedDecoder](https://github.com/BlindReview922/MADGNet/assets/142275582/8c057fd3-e681-4b52-b630-591f4bc5a8f5)
+
+## Experiment Results
+
+### Seen Clinical Settings Results
+![Screenshot from 2023-11-26 16-16-13](https://github.com/BlindReview922/MADGNet/assets/142275582/30767364-13a7-43b1-8b00-dff7aa531e7d)
+
+### Unseen Clinical Settings Results
+![Screenshot from 2023-11-26 16-15-44](https://github.com/BlindReview922/MADGNet/assets/142275582/cef29e7d-5c41-4c82-9f9a-45c45de46cb9)
