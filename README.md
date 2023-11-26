@@ -15,3 +15,5 @@ Generalizability in deep neural networks plays a pivotal role in medical image s
 
 ### Unseen Clinical Settings Results
 ![Screenshot from 2023-11-26 16-15-44](https://github.com/BlindReview922/MADGNet/assets/142275582/cef29e7d-5c41-4c82-9f9a-45c45de46cb9)
+
+# Code Usage
