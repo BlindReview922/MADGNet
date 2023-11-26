@@ -17,3 +17,19 @@ Generalizability in deep neural networks plays a pivotal role in medical image s
 ![Screenshot from 2023-11-26 16-15-44](https://github.com/BlindReview922/MADGNet/assets/142275582/cef29e7d-5c41-4c82-9f9a-45c45de46cb9)
 
 # Code Usage
+
+STEP1. Download Github Code
+
+STEP2. Download medical image segmentation dataset in following [link](https://drive.google.com/file/d/1qv-V8kMZolNdBOruzRLO_9UshhWGohLi/view?usp=sharing).
+
+STEP3. Move dataset into folder 'dataset/BioMedicalDataset'
+
+STEP4. Download model pre-trained weights in following [link](https://drive.google.com/file/d/1GLhkmDuzxN_MQpOo2rag2m9BwZK91hlE/view?usp=drive_link)
+
+STEP5. Move pre-trained weights into folder model_weights
+
+STEP6. Enter following command
+
+```
+CUDA_VISIBLE_DEVICES=[GPU Number] python3 IS2D_main.py --num_workers 4 --data_path dataset/BioMedicalDataset --save_path model_weights --train_data_type [Train Dataset Type] --test_data_type [Test Dataset Type] --final_epoch [Final Epochs]
+```
